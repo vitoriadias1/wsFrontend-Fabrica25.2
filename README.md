@@ -2,8 +2,6 @@
 
 <p> Uma Aplicação web desenvolvida em React e TypeScript para listar, buscar e favoritar Pokémons, exibindo suas imagens e nomes de forma simples e interativa.</p>
 
-( Pedir pro momo me ajudar a colocar uma fotinha da pagina inicial)
-
 ## Tecnologias Utilizadas 
 
 - React - Biblioteca para construção da interface.
@@ -32,21 +30,19 @@
 ├── 📄 package.json  <br>
 ├── 📄 tsconfig.json  <br>
 ├── 📄 next.config.ts <br>
-├── 📄 postcss.config.mjs  <br> obg meu docinho
-
+├── 📄 postcss.config.mjs  <br>
 └── 📄 README.md    <br> 
 
 ## Como Rodar o Projeto 
 - Clone o repositório 
-( buta o repo aqui )
 - Acesse a pasta do projeto
 **cd pokedex**
 - Instale as dependências
 **npm install # ou yarn install**
 - Execute o projeto 
 **npm run dev** # ou **yarn install**
-- Acesse no navegador:
-( buta o localhost)
+- Acesse no navegador: https://localhost:3000
+
 
 ## Foto da Preview da tela inicial
 ![alt text](image-1.png)
