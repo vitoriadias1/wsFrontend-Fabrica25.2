@@ -43,6 +43,9 @@
 **npm run dev** # ou **yarn install**
 - Acesse no navegador: https://localhost:3000
 
+## Acesse a Pokédex
+https://ws-frontend-fabrica25-2-xi.vercel.app
+
 
 ## Foto da Preview da tela inicial
 ![alt text](image-1.png)
