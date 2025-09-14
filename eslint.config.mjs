@@ -10,7 +10,10 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Regras base do Next + TS
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  // Ignorar pastas/arquivos
   {
     ignores: [
       "node_modules/**",
@@ -19,6 +22,17 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+  },
+
+  // >>> Desative aqui a regra "no-explicit-any"
+  {
+    files: ["**/*.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",
+
+      // Se quiser também silenciar o alerta do useEffect:
+      // "react-hooks/exhaustive-deps": "off",
+    },
   },
 ];
 
