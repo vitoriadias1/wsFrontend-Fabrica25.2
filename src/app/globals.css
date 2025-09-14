@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pokemon-shadow {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+}
+
+/* Para navegadores baseados em Webkit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* largura fina */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* sem fundo */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* cor suave */
+  border-radius: 10px; /* cantos arredondados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35); /* um pouco mais visível no hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* deixa a barra fina */
+  scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+}
